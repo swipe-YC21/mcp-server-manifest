@@ -209,7 +209,7 @@ If your client's redirect URI is not on this list, contact the Swipe team to get
 
 ## Authentication Notes
 
-- Authentication is via **OTP on your registered Swipe mobile number**.
+- Authentication is via **OTP on your registered Swipe mobile number/ email id**.
 - After OTP verification, you select the company you want the AI to work with.
 - Access tokens are valid for **30 days**.
 - PKCE (Proof Key for Code Exchange) is used throughout — no client secrets are stored by your AI client.
