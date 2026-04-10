@@ -19,7 +19,7 @@ Connect your AI assistant directly to your Swipe Billing App — create invoices
 
 ## Installation Guide
 
-> **Authentication:** Swipe MCP uses OAuth2 with PKCE. When prompted, sign in with your Swipe account and select the company you want to connect.
+> **Authentication:** Swipe MCP uses OAuth2 with PKCE. When prompted, sign in with your Swipe account and your default company will be used.
 
 **Installation**
 
