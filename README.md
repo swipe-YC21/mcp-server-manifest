@@ -147,16 +147,6 @@ The client will walk you through an OAuth sign-in. When prompted, **sign in with
 | `stock_in` | Record incoming stock for a product |
 | `stock_out` | Record outgoing stock for a product |
 
-### ⚙️ Company & Settings
-
-| Tool | What it does |
-|---|---|
-| `update_company_name` | Update your company's display name |
-| `update_company_gstin` | Update your company's GSTIN |
-| `update_settings` | Update general company settings |
-| `update_invoice_settings` | Configure invoice-specific settings (prefix, terms, etc.) |
-| `get_swipe_invoice` | Retrieve your Swipe subscription invoice |
-
 ---
 
 ## Example Prompts
