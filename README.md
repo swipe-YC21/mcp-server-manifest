@@ -21,13 +21,7 @@ Connect your AI assistant directly to your Swipe Billing App — create invoices
 
 > **Authentication:** Swipe MCP uses OAuth2 with PKCE. When prompted, sign in with your Swipe account and select the company you want to connect.
 
-### Install in VS Code
-
-**One-click installation**
-
-[![Install in VS Code](https://img.shields.io/badge/Install%20in-VS%20Code-blue)](https://insiders.vscode.dev/redirect?url=vscode://saoudrizwan.claude-dev/openMcpServer?config={"mcpServers":{"swipe-mcp":{"url":"https://app.getswipe.in/api/mcp/sse","type":"http"}}})
-
-**Manual installation**
+**Installation**
 
 Add this to your `mcp.json` file:
 
@@ -96,7 +90,7 @@ For any MCP client that supports remote HTTP/SSE servers, enter:
 https://app.getswipe.in/api/mcp/sse
 ```
 
-The client will walk you through an OAuth sign-in. When prompted, **sign in with Swipe** (using your registered mobile number + OTP). After login, select the company you want the AI to operate on.
+The client will walk you through an OAuth sign-in. When prompted, **sign in with Swipe** (using your registered mobile number/email + OTP). After login, your default account will be used for AI actions.
 
 ---
 
